@@ -39,3 +39,7 @@ likeButton.addEventListener('click', (e) => {
     e.preventDefault()
 })
 
+// Criando Mudança de background
+const bcgInput = document.querySelector(".config-input")
+console.log(bcgInput);
+
