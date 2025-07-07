@@ -107,6 +107,22 @@
         height: 100vh;
         padding: 5vh 10vw;
     }
+
+    .form__config {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .config-label {
+        font-size: 20px;
+        margin-left: 2rem;
+    }
+
+    .config-input {
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+
 }
 
 @media (min-width: 768px) {}

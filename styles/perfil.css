@@ -108,6 +108,44 @@
         padding: 5vh 10vw;
     }
 
+    .profile__container {
+        width: 100%;
+    }
+
+    .profile__container--form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile__form--fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding: 1rem;
+        width: 40%;
+    }
+
+    .profile__form--label {
+        font-size: 20px;
+    }
+
+    .profile__form--input {
+        background-color: var(--color-surface);
+        padding: .5rem 1rem;
+    }
+
+    .profile__container--button {
+        margin-top: 1rem;
+        color: #fff;
+        background-color: var(--color-button);
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    .profile__container--button:hover {
+        background-color: var(--color-button-hover);
+    }
 }
 
 @media (min-width: 768px) {}

@@ -107,6 +107,55 @@
         height: 100vh;
         padding: 5vh 10vw;
     }
+
+    .notif__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .notif__container--list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .notif__container--item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 1rem;
+        background-color: var(--color-surface);
+        height: 20%;
+        border-radius: 8px;
+    }
+
+    .notif__container--item:hover {
+        background-color: var(--color-surface-hover)
+    }
+
+    .notif__container--small {
+        position: absolute;
+        top: 2.3rem;
+        right: 1rem;
+        color: var(--color-like);
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+    .none {
+        display: none;
+    }
+
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .notif__container--list {
+        width: 30%;
+        padding: 1rem 2rem;
+    }
+
+}
