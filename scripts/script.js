@@ -38,3 +38,4 @@ likeButton.addEventListener('click', (e) => {
 
     e.preventDefault()
 })
+

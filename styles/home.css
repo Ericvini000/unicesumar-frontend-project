@@ -125,13 +125,12 @@
 
     .post__form--new {
         display: flex;
-        align-items: center;
         gap: 1rem;
     }
 
     .post__form--new img {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         background: transparent;
     }
 
@@ -186,7 +185,7 @@
     }
 
     .post__registry--item {
-        height: 30%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         gap: 12px;
@@ -230,5 +229,19 @@
 @media (min-width: 768px) {
     .post__form--button {
         padding: .5rem 1.25rem;
+    }
+
+    .post__form--new {
+        align-items: center;
+    }
+
+    .post__form--new img {
+        width: 4rem;
+        height: 4rem;
+        background: transparent;
+    }
+
+    .post__registry--item {
+        height: 25%;
     }
 }
